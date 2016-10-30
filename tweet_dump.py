@@ -15,10 +15,10 @@ def get_all_tweets(screen_name):
 	#Twitter only allows access to a users most recent 3240 tweets with this method
 	
 	#authorize twitter, initialize tweepy
-	access_token = "1158122640-jxtFTgCf5xBmrWpifz8Zc6G3okaQVKcTG6eLDMG"
-	access_token_secret = "YVyW2wxTYDEiV3O300Fifs5WB8Dj7CvdfBfdg401lxsxU"
-	consumer_key = "zuGFRveD0kSTGdpNByZQUZgz7"
-	consumer_secret = "uLGYKAJv2cfeUsJZR3jU71ERBjCbAzlWfcFZ9A1iWiaIXf8Oie"
+	access_token = "ACCESS_TOKEN"
+	access_token_secret = "ACCESS_TOKEN_SECRETU"
+	consumer_key = "CONSUMER_KEY"
+	consumer_secret = "CONSUMER_KEY_SECRET"
 	
 	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 	auth.set_access_token(access_key, access_secret)
