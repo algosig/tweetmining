@@ -9,11 +9,11 @@
 import tweepy
 class TwitterAPI:
     def __init__(self):
-        consumer_key = "zuGFRveD0kSTGdpNByZQUZgz7"
-        consumer_secret = "uLGYKAJv2cfeUsJZR3jU71ERBjCbAzlWfcFZ9A1iWiaIXf8Oie"
+        consumer_key = "zuGFRveD0kSTyZQUZgz7"
+        consumer_secret = "uLGYKAJv2BjCbAzlWfcFZ9A1iWiaIXf8Oie"
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-        access_token = "1158122640-jxtFTgCf5xBmrWpifz8Zc6G3okaQVKcTG6eLDMG"
-        access_token_secret = "YVyW2wxTYDEiV3O300Fifs5WB8Dj7CvdfBfdg401lxsxU"
+        access_token = "1158122640-jpifz8Zc6G3okaQVKcTG6eLDMG"
+        access_token_secret = "YVyW2fs5WB8Dj7CvdfBfdg401lxsxU"
         auth.set_access_token(access_token, access_token_secret)
         self.api = tweepy.API(auth)
 
